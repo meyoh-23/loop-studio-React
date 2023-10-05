@@ -39,3 +39,9 @@ We provide the required social icons. But, if you prefer, you can use a font ico
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com)
+
+ABOUT DESCRIPTION
+Founded in 2011, Loopstudio has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businessed through digital experiences that bind their brand.
+
+ABOUT TITTLE
+the leader in <br/> interactive vr
