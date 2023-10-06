@@ -14,11 +14,15 @@ return (
         },
         backgroundPosition: "center",
         objectFit: "fill",
-        backgroundRepeat: "no-repeat",
+        backgroundRepeat: {
+            xs: "no-repeat",
+            sm: "no-repeat",
+        },
         minHeight: "90vh",
         width: "100%",
         display: "block",
         flexDirection: "column",
+        marginBottom: "1rem"
     }}
     >
         <Box
