@@ -50,9 +50,10 @@ const Navbar = () => {
                             color: "hsl(0, 0%, 100%)",
                             fontFamily: " 'Josefin Sans', sans-serif",
                             textTransform: "capitalize",
-                            fontSize: "0.8rem",
+                            fontSize: "1rem",
                             "&:hover": {
                                 textDecoration: "underline",
+                                cursor: "pointer",
                             }
                         }}
                         >
@@ -66,9 +67,10 @@ const Navbar = () => {
                             color: "hsl(0, 0%, 100%)",
                             fontFamily: " 'Josefin Sans', sans-serif",
                             textTransform: "capitalize",
-                            fontSize: "0.5rem",
+                            fontSize: "1rem",
                             "&:hover": {
                                 textDecoration: "underline",
+                                cursor: "pointer",
                             }
                         }}
                         >
@@ -82,9 +84,10 @@ const Navbar = () => {
                             color: "hsl(0, 0%, 100%)",
                             fontFamily: " 'Josefin Sans', sans-serif",
                             textTransform: "capitalize",
-                            fontSize: "0.5rem",
+                            fontSize: "1rem",
                             "&:hover": {
                                 textDecoration: "underline",
+                                cursor: "pointer",
                             }
                         }}
                         >
@@ -98,9 +101,10 @@ const Navbar = () => {
                             color: "hsl(0, 0%, 100%)",
                             fontFamily: " 'Josefin Sans', sans-serif",
                             textTransform: "capitalize",
-                            fontSize: "0.5rem",
+                            fontSize: "1rem",
                             "&:hover": {
                                 textDecoration: "underline",
+                                cursor: "pointer",
                             }
                         }}
                         >
@@ -114,9 +118,10 @@ const Navbar = () => {
                             color: "hsl(0, 0%, 100%)",
                             fontFamily: " 'Josefin Sans', sans-serif",
                             textTransform: "capitalize",
-                            fontSize: "0.5rem",
+                            fontSize: "1rem",
                             "&:hover": {
                                 textDecoration: "underline",
+                                cursor: "pointer",
                             }
                         }}
                         >
