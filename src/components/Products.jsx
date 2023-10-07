@@ -1,9 +1,24 @@
-import { Box, Button, Container, Typography } from '@mui/material';
+import { Box, Button, Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 import mobileProject1 from './assets/mobile/image-deep-earth.jpg';
+import mobileProject2 from './assets/mobile/image-night-arcade.jpg';
+import mobileProject3 from './assets/mobile/image-soccer-team.jpg';
+import mobileProject4 from './assets/mobile/image-grid.jpg';
+import mobileProject5 from './assets/mobile/image-from-above.jpg';
+import mobileProject6 from './assets/mobile/image-pocket-borealis.jpg';
+import mobileProject7 from './assets/mobile/image-curiosity.jpg';
+import mobileProject8 from './assets/mobile/image-fisheye.jpg';
+
 
 import desktopProject1 from './assets/desktop/image-deep-earth.jpg';
+import desktopProject2 from './assets/desktop/image-night-arcade.jpg';
+import desktopProject3 from './assets/desktop/image-soccer-team.jpg';
+import desktopProject4 from './assets/desktop/image-grid.jpg';
+import desktopProject5 from './assets/desktop/image-from-above.jpg';
+import desktopProject6 from './assets/desktop/image-pocket-borealis.jpg';
+import desktopProject7 from './assets/desktop/image-curiosity.jpg';
+import desktopProject8 from './assets/desktop/image-fisheye.jpg';
 
 const Products = () => {
     return (
@@ -13,6 +28,7 @@ const Products = () => {
             display: "flex",
             flexDirection: "column",
             marginBottom: "3rem",
+            paddingBottom: "1.8rem",
         }}
         >
             <Box 
@@ -24,6 +40,7 @@ const Products = () => {
                 justifyContent: {
                     xs: "flex-start",
                     sm: "space-between",
+                    margin: "2rem",
                 },
             }}
             >
@@ -57,16 +74,16 @@ const Products = () => {
                     </Button>
                 </Box>
             </Box>
-            <Box
-            sx={{
-                margin: "2.5rem",
-                display: "grid",
-                gridTemplateRows: 4,
-                gap: "1.5rem",
-            }}
+            <Grid
+            container
+            spacing={1.2}
             >
-                check on the grid
-                <Box
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -90,12 +107,19 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
                         deep <br/> earth
                     </Typography>
                 </Box>
-                <Box
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -103,8 +127,8 @@ const Products = () => {
                     },
                     width: "auto",
                     backgroundImage: {
-                        xs: `url(${mobileProject1})`,
-                        sm: `url(${desktopProject1})`,
+                        xs: `url(${mobileProject2})`,
+                        sm: `url(${desktopProject2})`,
                     },
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -119,12 +143,19 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
-                        deep <br/> earth
+                        night <br/> arcade
                     </Typography>
                 </Box>
-                <Box
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -132,8 +163,8 @@ const Products = () => {
                     },
                     width: "auto",
                     backgroundImage: {
-                        xs: `url(${mobileProject1})`,
-                        sm: `url(${desktopProject1})`,
+                        xs: `url(${mobileProject3})`,
+                        sm: `url(${desktopProject3})`,
                     },
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -148,12 +179,19 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
-                        deep <br/> earth
+                        soccer <br/> team vr
                     </Typography>
                 </Box>
-                <Box
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -161,8 +199,8 @@ const Products = () => {
                     },
                     width: "auto",
                     backgroundImage: {
-                        xs: `url(${mobileProject1})`,
-                        sm: `url(${desktopProject1})`,
+                        xs: `url(${mobileProject4})`,
+                        sm: `url(${desktopProject4})`,
                     },
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -177,12 +215,19 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
-                        deep <br/> earth
+                        the <br/> grid
                     </Typography>
                 </Box>
-                <Box
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -190,8 +235,8 @@ const Products = () => {
                     },
                     width: "auto",
                     backgroundImage: {
-                        xs: `url(${mobileProject1})`,
-                        sm: `url(${desktopProject1})`,
+                        xs: `url(${mobileProject5})`,
+                        sm: `url(${desktopProject5})`,
                     },
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -206,12 +251,19 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
-                        deep <br/> earth
+                        from up <br/> above vr
                     </Typography>
                 </Box>
-                <Box
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -219,8 +271,8 @@ const Products = () => {
                     },
                     width: "auto",
                     backgroundImage: {
-                        xs: `url(${mobileProject1})`,
-                        sm: `url(${desktopProject1})`,
+                        xs: `url(${mobileProject6})`,
+                        sm: `url(${desktopProject6})`,
                     },
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -235,12 +287,19 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
-                        deep <br/> earth
+                        pocket <br/> borealis
                     </Typography>
                 </Box>
-                <Box
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
                 sx={{
                     height: {
                         xs: "200px",
@@ -248,8 +307,8 @@ const Products = () => {
                     },
                     width: "auto",
                     backgroundImage: {
-                        xs: `url(${mobileProject1})`,
-                        sm: `url(${desktopProject1})`,
+                        xs: `url(${mobileProject7})`,
+                        sm: `url(${desktopProject7})`,
                     },
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -264,18 +323,57 @@ const Products = () => {
                         bottom: "25px",
                         textTransform: "uppercase",
                         color: "hsl(0, 0%, 100%)",
+                        fontFamily:"'Josefin Sans', sans-serif",
                     }}
                     >
-                        deep <br/> earth
+                        the <br/> curiosity
                     </Typography>
                 </Box>
-            </Box>
+                </Grid>
+                <Grid
+                item
+                xs={12}
+                sm={3}
+                >
+                    <Box
+                sx={{
+                    height: {
+                        xs: "200px",
+                        sm: "400px",
+                    },
+                    width: "auto",
+                    backgroundImage: {
+                        xs: `url(${mobileProject8})`,
+                        sm: `url(${desktopProject8})`,
+                    },
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    position: "relative",
+                }}
+                >
+                    <Typography
+                    sx={{
+                        position: "absolute",
+                        fontFamily:"'Josefin Sans', sans-serif",
+                        left: "20px",
+                        bottom: "25px",
+                        textTransform: "uppercase",
+                        color: "hsl(0, 0%, 100%)",
+                    }}
+                    >
+                        meke it <br/> fisheye
+                    </Typography>
+                </Box>
+                </Grid>
+            </Grid>
             <Box
                 sx={{
                     display: {
                         xs: "flex",
                         sm: "none",
                     },
+                    marginTop: "2rem",
                 }}
                 >
                     <Button
